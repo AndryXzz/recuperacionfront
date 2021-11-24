@@ -17,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="dashboard" element={
+        <Route path="/recuperacionfront/login" element={<Login />} />
+        <Route path="/recuperacionfront" element={<Login />} />
+        <Route path="/recuperacionfront/register" element={<Register />} />
+        <Route path="recuperacionfront/dashboard" element={
           <RequireLogin>
             <Dashboard user={user} />
           </RequireLogin>
